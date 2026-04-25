@@ -59,19 +59,33 @@ box-shadow:
 
 ### Descripción
 
-El logo de Navia es el wordmark **"navia"** en minúsculas:
-- Tipografía: sans-serif redondeada, friendly
-- Color primario: `#FE7E60` (coral)
-- Variante oscura: `#1A1A1A`
-- Variante blanca: `#FFFFFF`
+El logo de Navia es una combinación de **ícono + wordmark**:
 
-### Versiones
+**Ícono (maleta con flecha de navegación)**
+- Forma: cuadrado redondeado (maleta de viaje) con asa visible en la parte superior
+- Color: `#FE7E60` coral
+- Interior: flecha de navegación / paper plane en blanco
+- El ícono comunica "viaje" + "navegación/dirección" en una sola forma
 
-| Variante         | Uso                                      |
-|------------------|------------------------------------------|
-| Logo coral       | Navbar en fondo blanco/claro             |
-| Logo blanco      | Sobre fondos coral oscuro o imagen       |
-| Logo oscuro      | Impresión, uso sobre fondos muy claros   |
+**Wordmark**
+- Texto: **"navia"** en minúsculas
+- Tipografía: sans-serif bold (Outfit 700 o similar — redondeado, friendly)
+- Color: `#1A1A1A` (versión principal)
+
+**Tagline** (uso en versión extendida)
+- "Tu viaje, en un solo lugar"
+- Tipografía: DM Sans 400, gris `#474542`
+
+### Archivos disponibles
+
+| Archivo                          | Uso                                           |
+|----------------------------------|-----------------------------------------------|
+| `logo-navia.png`                 | Original PNG de alta resolución (3120×1755)   |
+| `logo-navia-color.svg`           | Ícono coral + wordmark negro — navbar principal|
+| `logo-navia-white.svg`           | Ícono blanco + wordmark blanco — sobre fondos oscuros o coral |
+| `logo-navia-dark.svg`            | Ícono negro + wordmark negro — impresión       |
+| `logo-icon-only.svg`             | Solo el ícono — favicons, app icon, avatares   |
+| `favicon.png`                    | Favicon para web                               |
 
 ### Espacio de protección
 
@@ -79,7 +93,7 @@ Mínimo 16px de espacio libre alrededor del logo en todos los lados.
 
 ### Tamaño mínimo
 
-- Digital: 80px de ancho
+- Digital: 80px de ancho para el wordmark completo; 32px para el ícono solo
 - Print: 25mm de ancho
 
 ---
