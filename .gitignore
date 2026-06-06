@@ -1,0 +1,8 @@
+# PowerPoint / PPTX
+*.pptx
+*.ppt
+pptx-unpacked/
+
+# OS
+.DS_Store
+*.swp
